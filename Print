@@ -1,0 +1,5 @@
+for i,v in pairs(Game.Players:GetChildren()) do
+if v:IsA("Player") then
+  print(v.Name)
+end
+end
